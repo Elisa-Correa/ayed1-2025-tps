@@ -1,8 +1,10 @@
 def intercalar(lista1: list[int], lista2: list[int]) -> list[int]:
     """
     Pre: Recibe 2 listas de numeros entero.
-         Permite que sean vacias []
-         Permite que tengan diferente longitud cada una
+         Permite que sean vacias [].
+         Permite que tengan diferente longitud cada una.
+
+    Post: Retorna una lista con los elemento intercalados de cada lista.
 
 
     Recibe 2 listas de numeros enteros, y las intercala guardandolas en una sola lista.
@@ -17,8 +19,8 @@ def intercalar(lista1: list[int], lista2: list[int]) -> list[int]:
     return lista1
 
 
-lista1 = []
-lista2 = []
+lista1 = [1, 3, 5]
+lista2 = [2, 4, 6, 8, 10]
 
 print(intercalar(lista1, lista2))
 
